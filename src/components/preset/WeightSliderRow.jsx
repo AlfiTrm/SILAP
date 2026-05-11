@@ -14,6 +14,7 @@ function WeightSliderRow({ label, name, value, onChange }) {
         onChange={(event) => onChange(name, Number(event.target.value))}
       />
       <input
+        aria-label={`${label} percentage`}
         type="number"
         min="0"
         max="100"

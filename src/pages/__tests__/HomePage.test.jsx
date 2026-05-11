@@ -39,4 +39,15 @@ describe('HomePage', () => {
       screen.getByRole('heading', { name: 'Dana Pelajar', level: 2 }),
     ).toBeInTheDocument()
   })
+
+  it('shows the top laptop by category section content', () => {
+    render(
+      <MemoryRouter>
+        <HomePage />
+      </MemoryRouter>,
+    )
+
+    expect(screen.getByText('Legion Slim 5')).toBeInTheDocument()
+    expect(screen.getByText('ASUS ProArt P16')).toBeInTheDocument()
+  })
 })

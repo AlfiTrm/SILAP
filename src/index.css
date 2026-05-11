@@ -55,6 +55,11 @@
     background: var(--color-main-blue);
     color: #fff;
   }
+
+  :focus-visible {
+    outline: 3px solid var(--color-main-blue);
+    outline-offset: 3px;
+  }
 }
 
 @layer components {
@@ -100,5 +105,23 @@
     padding-inline: 1.25rem;
     border-radius: 999px;
     background: #fff;
+  }
+
+  .soft-panel {
+    border-radius: var(--radius-soft);
+    background: #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  @layer components {
+    .page-section {
+      padding-block: 4rem;
+    }
+
+    .site-shell,
+    .section-shell {
+      width: min(100% - 1.25rem, var(--container-main));
+    }
   }
 }

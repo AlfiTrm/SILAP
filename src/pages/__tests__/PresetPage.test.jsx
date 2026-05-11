@@ -33,4 +33,13 @@ describe('PresetPage', () => {
       screen.getByRole('button', { name: 'Lihat Rekomendasi' }),
     ).toBeDisabled()
   })
+
+  it('shows the current total weight summary', () => {
+    render(<PresetPage />)
+
+    expect(screen.getByText('Total bobot: 100%')).toBeInTheDocument()
+    expect(
+      screen.getByRole('button', { name: 'Lihat Rekomendasi' }),
+    ).toBeEnabled()
+  })
 })

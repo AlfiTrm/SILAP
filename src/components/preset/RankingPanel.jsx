@@ -9,7 +9,7 @@ function RankingPanel({ items }) {
               <p className="mt-2 text-sm text-[var(--color-muted)]">{item.note}</p>
             </div>
             <p className="text-2xl font-semibold text-[var(--color-main-purple)]">
-              {item.score}
+              Skor {item.score}
             </p>
           </div>
           <dl className="mt-5 grid gap-2 text-sm md:grid-cols-2">
