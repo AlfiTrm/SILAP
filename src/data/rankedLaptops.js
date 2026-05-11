@@ -1,0 +1,32 @@
+export const rankedLaptops = [
+  {
+    name: 'Lenovo Legion Slim 5',
+    score: 92,
+    price: 'Rp 18.999.000',
+    cpu: 'Ryzen 7 8845HS',
+    gpu: 'RTX 4060',
+    ram: '16 GB',
+    storage: '1 TB SSD',
+    note: 'Kuat untuk beban grafis tinggi dan masih masuk akal untuk dipakai harian.',
+  },
+  {
+    name: 'ASUS Vivobook Pro 15',
+    score: 88,
+    price: 'Rp 16.499.000',
+    cpu: 'Ryzen 7 7840HS',
+    gpu: 'RTX 3050',
+    ram: '16 GB',
+    storage: '512 GB SSD',
+    note: 'Seimbang untuk kreator yang butuh performa dan harga lebih rendah.',
+  },
+  {
+    name: 'Acer Swift Go 14',
+    score: 81,
+    price: 'Rp 13.999.000',
+    cpu: 'Intel Core Ultra 5',
+    gpu: 'Intel Arc',
+    ram: '16 GB',
+    storage: '512 GB SSD',
+    note: 'Efisien untuk mobilitas dan kerja cepat tanpa bobot berlebih.',
+  },
+]
