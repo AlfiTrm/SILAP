@@ -1,17 +1,7 @@
-import { Route, Routes } from 'react-router-dom'
-import AppShell from './app/AppShell'
-import HomePage from './pages/HomePage'
-import PresetPage from './pages/PresetPage'
+import AppRoutes from './app/routes'
 
 function App() {
-  return (
-    <Routes>
-      <Route element={<AppShell />}>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/preset" element={<PresetPage />} />
-      </Route>
-    </Routes>
-  )
+  return <AppRoutes />
 }
 
 export default App
