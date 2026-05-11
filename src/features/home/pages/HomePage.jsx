@@ -1,6 +1,6 @@
-import CategoryShowcase from '../components/home/CategoryShowcase'
-import HeroSearch from '../components/home/HeroSearch'
-import PresetGrid from '../components/home/PresetGrid'
+import CategoryShowcase from '../components/CategoryShowcase'
+import HeroSearch from '../components/HeroSearch'
+import PresetGrid from '../components/PresetGrid'
 
 function HomePage() {
   return (

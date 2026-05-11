@@ -1,4 +1,4 @@
-import { topLaptopsByCategory } from '../../data/topLaptops'
+import { topLaptopsByCategory } from '../data/topLaptops'
 
 function CategoryShowcase() {
   return (

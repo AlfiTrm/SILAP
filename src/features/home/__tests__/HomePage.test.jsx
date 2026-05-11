@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
-import HomePage from '../HomePage'
+import HomePage from '../pages/HomePage'
 
 describe('HomePage', () => {
   it('renders the hero heading, search field, and main CTA', () => {

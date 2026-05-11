@@ -1,4 +1,4 @@
-import { homePresets } from '../../data/presets'
+import { homePresets } from '../data/presets'
 
 function PresetGrid() {
   return (
