@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import PresetPage from '../PresetPage'
+import PresetPage from '../pages/PresetPage'
 
 describe('PresetPage', () => {
   it('renders all approved preset categories and criteria labels', () => {

@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import AppShell from './AppShell'
 import HomePage from '../features/home/pages/HomePage'
-import PresetPage from '../pages/PresetPage'
+import PresetPage from '../features/preset/pages/PresetPage'
 
 function AppRoutes() {
   return (

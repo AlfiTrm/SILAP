@@ -1,4 +1,4 @@
-import { getTotalWeight, isWeightTotalValid } from '../weighting'
+import { getTotalWeight, isWeightTotalValid } from '../lib/weighting'
 
 describe('weighting helpers', () => {
   it('sums all criteria values correctly', () => {

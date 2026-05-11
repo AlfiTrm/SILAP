@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import PresetSelector from '../components/preset/PresetSelector'
-import RankingPanel from '../components/preset/RankingPanel'
-import WeightSliderRow from '../components/preset/WeightSliderRow'
+import PresetSelector from '../components/PresetSelector'
+import RankingPanel from '../components/RankingPanel'
+import WeightSliderRow from '../components/WeightSliderRow'
 import { rankedLaptops } from '../data/rankedLaptops'
 import {
   getTotalWeight,
